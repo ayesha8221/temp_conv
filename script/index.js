@@ -1,8 +1,17 @@
 // function calculate
-
+function calculate(){
 let farenheit = document.getElementById('farenheit').value;
-let celcius = document.getElementById('celcius').value;
+let celsius = document.getElementById('celsius').value;
 
-let result= (farenheit= (celcius * 1.8) + 32) 
-document.getElementById('celcius').value= result.farenheit
+// celsius
+let result1 =
+}
+   
+function clearInterval() {
+    document.getElementById('farenheit').value= ""
+    document.getElementById('celsius').value= ""
+}
+
+
+
 
